@@ -20,6 +20,7 @@ A simple full-stack application where users can create and manage tasks. This pr
 - View a list of all tasks
 - Simple and clean UI
 - RESTful API integration between frontend and backend
+- used postgres database
 
 ## ⚙️ Getting Started
 
@@ -29,15 +30,16 @@ A simple full-stack application where users can create and manage tasks. This pr
 git clone git@github.com:amrit713/auth_system.git
 ```
 
-after that open the folder
+After that, open the folder
 
-```cd backend
+``` cd backend
 npm install or yarn
-npm run dev
+
 
 ```
 
-you find .env.example file and put all env variable
+You will find .env example file and put all env variable
+
 
 ```
 DATABASE_URL=
@@ -45,8 +47,19 @@ DATABASE_URL=
 PORT=
 AUTH_SECRET=
 ```
+run 
+```
+npx prisma generate
+and
+npx prisma db push
+```
+and then
+run 
+```
+npm run dev```
+It will run backend
 
-open the frontend folder in diffrent terminal
+Open the frontend folder in a different terminal
 
 ```
 npm install or yarn
