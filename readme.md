@@ -1,6 +1,6 @@
 # Authentication system
 
-A simple full-stack application where users can create and manage tasks. This project is built with a **React** frontend (using **Vite**) and an **Express** backend, providing a clean and modern development setup.
+A simple full-stack application where users can create and manage tasks. This project is built with a **React** front end (using **Vite**) and an **Express** back end, providing a clean and modern development setup.
 
 ## 🛠 Tech Stack
 
@@ -55,8 +55,8 @@ npx prisma db push
 ```
 and then
 run 
-```
-npm run dev```
+
+```npm run dev```
 It will run backend
 
 Open the frontend folder in a different terminal
@@ -67,4 +67,4 @@ npm run dev
 
 ```
 
-now you ready to go
+Now you are ready to go
